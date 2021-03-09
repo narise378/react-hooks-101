@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <div className="container-fluid">
-        <h4>イベント作成フォーム</h4>
+        <h4 className="mt-4 mb-3">イベント作成フォーム</h4>
         <form>
           <div className="form-group mb-3">
             <label htmlFor="formEventTitle">タイトル</label>
@@ -27,7 +27,7 @@ const App = () => {
             <tr>
               <th>ID</th>
               <th>タイトル</th>
-              <th>ボディ</th>
+              <th>ボディー</th>
               <th></th>
             </tr>
           </thead>
